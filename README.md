@@ -166,7 +166,7 @@ http://<public-ip-of-ubuntu-server>:8080
 
 ---
 
-## 🔍 Verify Image Size Reduction
+## Verify Image Size Reduction
 
 Compare the size difference between stages:
 
@@ -179,11 +179,11 @@ docker inspect react-docker-app
 ```
 <img src="screenshots/docker-inspect.png" width="450"/><br/>
 
-> 💡 The final image is significantly smaller than a Node.js-based image because it only includes Nginx and the static build files — **Node.js is not included in production**.
+>  The final image is significantly smaller than a Node.js-based image because it only includes Nginx and the static build files — **Node.js is not included in production**.
 
 ---
 
-## 🧹 Cleanup
+## Cleanup
 
 ```bash
 # Stop the container
@@ -199,7 +199,7 @@ docker rmi react-docker-app
 
 ---
 
-## 📌 Key Concepts
+## Key Concepts
 
 | Concept | Description |
 |---|---|
@@ -211,7 +211,7 @@ docker rmi react-docker-app
 
 ---
 
-## ✅ Best Practices Followed
+## Best Practices Followed
 
 - [x] Multi-stage build to separate build and runtime environments
 - [x] `.dockerignore` to reduce build context size

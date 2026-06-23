@@ -76,6 +76,7 @@ When prompted, select:
 <img src="screenshots/npm-create-vite@latest-react-docker-app.png" width="450"/><br/>
 
 Exit from vite by CTRL+C, once the installation complete as below:
+
 <img src="screenshots/exit-from-vite.png" width="450"/><br/>
 
 ---
